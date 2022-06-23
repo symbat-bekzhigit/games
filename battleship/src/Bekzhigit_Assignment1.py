@@ -8,6 +8,7 @@ CHECKER = ' X '
 DASH = ' # '
 board = []
 
+#///////////////////
 #create a board with given dimensions(this board will be shown to the reader)
 for row in range(DIMENSION):
     row_list=[]
