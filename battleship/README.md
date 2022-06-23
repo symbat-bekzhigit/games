@@ -18,5 +18,4 @@ An auxiliary board that stores the boat and an original boat that the player see
 Once the player locates all the 4 cells of the boat, the game will be finished and the final score (which corresponds to the total number of guesses that the player made) will be printed.
 
 ***
-![](bin/1.png)
 ![](bin/2.png)
