@@ -16,3 +16,7 @@ If the location that the player chooses doesn't have a boat, a hash (#) will be 
 An auxiliary board that stores the boat and an original boat that the player sees are used to compare the player's input with the location of the boat.
 
 Once the player locates all the 4 cells of the boat, the game will be finished and the final score (which corresponds to the total number of guesses that the player made) will be printed.
+
+***
+![](bin/data/1.png)
+![](bin/data/2.png)
