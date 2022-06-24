@@ -1,17 +1,15 @@
 # Connect 4 game
 
-This is am online simulation of a two-player connection board game where the players take turns dropping their tokens into the 8x8 vertically suspended grid
+This is am online simulation of a two-player connection board game where the players take turns dropping their tokens into the 8x8 vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own tokens.
 
 **Game specifities**
 
-When the game is launched, the board will be drawn and location of the boat will be chosen randomly. Since the boat will extend for the length 4 cells, the location of the boat will be based on the initial cell and the orientation that the boat will take with respect to that cell(left/right/up/down). Both the inital cell and orientation will be chosen randomly.
+By default, there are 8 columns named with capital alphabet letters A-G. When the game is launched, the board will be drawn and the players will be randomly assigned checkers which are either X or O. The players will take turns chosing a column, in which case their checkers will be placed in the lowest available space within the column. 
 
-The player will keep guessing the cells until finding the location of all 4 cells of the boat.
+There is a error check for the various types of invalid input from the player side that will ensure that the column their entering matches the ones that are displayed on the board. The player's entry should be in the format "column name" i.e. A.
 
-The player's entry should be in the format column+row (i.e. A2). If the player enters location of the cell in the incorrect format, he/she will be asked to enter it again and the game will continue.
+Players will keep entering the column until either one of them wins or the game results in a draw.
 
-If the location that the player chooses doesn't have a boat, a hash (#) will be drawn on that cell, otherwise - a checker (X).
+The player who successfully places 4 checkers horizontally, vertically or diagonally wins. The draw occurs when the board gets filled before either player achieves 4 checkers in a row.
 
-An auxiliary board that stores the boat and an original boat that the player sees are used to compare the player's input with the location of the boat.
-
-Once the player locates all the 4 cells of the boat, the game will be finished and the final score (which corresponds to the total number of guesses that the player made) will be printed.
+The logic behind checking if the player won is that every time the player places his/her checker in the specific column, first we place the checker in the lowest available location in that column, and then check if there are 4 same checkers to the right, left, up, down, diagonally up and right, diagonally up and left, diagonally down and right, diagonally down and right of the chosen coordinate, inlcuding the coordinate where player just placed his/her checker.
