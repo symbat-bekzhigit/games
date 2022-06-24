@@ -14,4 +14,4 @@ The player who successfully places 4 checkers horizontally, vertically or diagon
 
 The logic behind checking if the player won is that every time the player places his/her checker in the specific column, first we place the checker in the lowest available location in that column, and then check if there are 4 same checkers to the right, left, up, down, diagonally up and right, diagonally up and left, diagonally down and right, diagonally down and right of the chosen coordinate, inlcuding the coordinate where player just placed his/her checker.
 
-https://youtu.be/mvKUmYcDO7c
+Here's the link to the video recording of my game: https://youtu.be/mvKUmYcDO7c
