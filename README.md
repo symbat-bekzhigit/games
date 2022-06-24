@@ -5,4 +5,6 @@ All the games, except for the Air hockey, were written entirely by me. The Air h
 
 Programming language used: Python
 
+Platforms used: Python IDLE, Processing 3
+
 Concepts covered: fundamental programming concepts such as looping, searching, sorting, recursion, etc. and various advanced concepts such as object-oriented programming and graphical user interface.
