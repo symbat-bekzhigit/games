@@ -15,3 +15,5 @@ This game is created in collaboration with one of my friends Aibar Talip as a fi
 opposite direction (conservation of impulse)
 - Disk will also bounce off with the same angle (angle of incidence = angle of reflection)
 
+
+Here's the link to the video recording of my game:
