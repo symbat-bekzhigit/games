@@ -15,5 +15,8 @@ This game is created in collaboration with one of my friends Aibar Talip as a fi
 opposite direction (conservation of impulse)
 - Disk will also bounce off with the same angle (angle of incidence = angle of reflection)
 
+- Overall, there will be 3 rounds of the game. In each of the rounds, the first player to score 5 will win.
+- As the players progress to the next round of the game, the velocity of the disk will increase, thus increasing the difficulty of the game.
 
-Here's the link to the video recording of my game:
+
+Here's the link to the video recording of my game: https://youtu.be/LoHQYJpVKYc
