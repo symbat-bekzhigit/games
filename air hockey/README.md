@@ -1,7 +1,7 @@
 # Air Hockey game
 
 This a computer modification of the table Air Hockey game. As in the real-life game, in the computer version of Air Hockey there will be two players who will attempt to score points by using a paddle to shoot a disk into the opponent's goal.
-This game is created in collaboration with one of my friends Aibar Talip as a final project for one of the CS classes that I took in my freshman year.
+This game is created in collaboration with one of my groupmates as a final project for the Intro to CS class.
 
 **Game Specifities**
 
